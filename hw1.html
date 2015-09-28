@@ -5,17 +5,29 @@
 </head>
 <body>
 	<script>
+	// removed var x and adde din var both to cover food and animals
+		// var x = new Array();
+		var food = ["apple", "banana", "cucumber"];
+		var animals = ["duck", "eagle", "ferret"];
+		var both = [food, animals];
+		// Ranamed these to vars instead.
+		// food[0] = new Array ("apple", "banana", "cucumber");
+		// animals[1] = new Array ("duck", "eagle", "ferret");
 
-		var x = new Array();
-		x[0] = new Array ("apple", "banana", "cucumber");
-		x[1] - new Array ("duck", "eagle", "ferret");
+		//One way to do it.
+			for (var j=0; j<food.length; j++){
+				console.log(food[j]);
+			}
+			for (var k=0; k<animals.length; k++){
+				console.log(animals[k]);
+			}
 
-		for (var i=0; i<x.length; i++){
-			var y = x[i];
-			for (var j=0; j<y.length; j++){
-			console.log([i][j]);
-		}
-	}
+	// 	for (var i=0; i<x.length; i++){
+	// 		var y = x[i];
+	// 		for (var j=0; j<y.length; j++){
+	// 		console.log([i][j]);
+	// 	}
+	// }
 
 	</script>
 </body>

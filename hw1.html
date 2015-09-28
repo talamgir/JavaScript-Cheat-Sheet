@@ -6,16 +6,33 @@
 <body>
 	<script>
 
-		var x = new Array();
-		x[0] = new Array ("apple", "banana", "cucumber");
-		x[1] - new Array ("duck", "eagle", "ferret");
+		//var x = new Array();
 
-		for (var i=0; i<x.length; i++){
-			var y = x[i];
-			for (var j=0; j<y.length; j++){
-			console.log([i][j]);
-		}
-	}
+		var food = ["apple", "banana", "cucumber"];
+		var animals = ["duck", "eagle", "ferret"];
+		var both = [food, animals];
+
+		//console.log(both[0][0]);
+		
+
+		//var food = new Array ("apple", "banana", "cucumber");
+		//var animals = new Array ("duck", "eagle", "ferret");
+ 		
+
+ 		// Another option
+        for (var i = 0; i<both.length; i++) {
+        	//console.log(both[i]);
+        	for (var j = 0; j < both[i].length; j++) {
+        		console.log(both[i][j]);
+        	}
+        }
+
+		// for (var i=0; i<x.length; i++){
+		// 	var y = x[i];
+		// 	for (var j=0; j<y.length; j++){
+		// 	console.log([i][j]);
+		// }
+	// }
 
 	</script>
 </body>

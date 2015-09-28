@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title></title>
+</head>
+<body>
+<!-- // Palindrome Program -->
+	<!-- <form >
+
+	Enter a String/Number: <input type="text" id="str" name="string" />
+
+	<br />
+
+	<input type="submit" value="Check" onclick="checkPalindrome();"/>
+
+	</form> -->
+
+<!-- // Name Program -->
+
+	 <!-- <form> -->
+
+	<!--Enter a Name: <input type ="text" id="name" name="myname" />
+
+
+	<!-- <br />
+
+	<!--<input type ="submit" value="Check" onclick="checkName();" /> -->
+
+<!-- Date Program -->
+
+<<!-- 		form onSubmit="return checkdate(this.mydate)">
+			<input type="text" name="mydate" />
+			<input type="submit" value="submit" /><br />
+			<b>Valid date format:</b> mm/dd/yyyy<br />
+			<input type="submit" value="submit" />
+			</form> -->
+
+
+ 	<script type="text/javascript"> -->
+
+ // PALINDROME //
+//  	function checkPalindrome() {
+
+// 			var revStr = "";
+// 			var str = document.getElementById("str").value;
+// 			var i = str.length;
+
+// 			for(var j=i; j>=0; j--) {
+// 				revStr = revStr+str.charAt(j);
+// 			}
+
+// 			if(str == revStr) {
+
+// 			alert(str+" -is Palindrome");
+
+// 			} 
+
+// 			else {
+// 			alert(str+" -is not a Palindrome");
+// 	}
+// }
+
+// CHECK VOWELS //
+		// function checkVowels(string){
+
+		// 	if (string.match(/[aeiouAEIOU]/)){
+		// 		console.log(string + " has a vowel in it!");
+		// 	}
+
+		// 	else {
+		// 		console.log(string + " does not have a vowel in it!")
+
+		// 	}
+		// }
+		// checkVowels("anyvowel");
+
+// CHECK NAME // 
+
+	// function checkName(){
+	// 	var name = document.getElementById("name").value;
+
+	// 	if (name == "Tim"){
+	// 		alert("That's my name")
+	// 	}
+
+	// 	else {
+	// 		alert("That's not my name")
+	// 	}
+	// }
+
+// VALIDATE DATE //
+
+// jQuery.validator.addMethod(
+//     "dateUS",
+//     function(value, element) {
+//         var check = false;
+//         var re = /^\d{1,2}\/\d{1,2}\/\d{4}$/;
+//         if( re.test(value)){
+//             var adata = value.split('/');
+//             var mm = parseInt(adata[0],10);
+//             var dd = parseInt(adata[1],10);
+//             var yyyy = parseInt(adata[2],10);
+//             var xdata = new Date(yyyy,mm-1,dd);
+//             if ( ( xdata.getFullYear() == yyyy ) && ( xdata.getMonth () == mm - 1 ) && ( xdata.getDate() == dd ) )
+//                 check = true;
+//             else
+//                 check = false;
+//         } else
+//             check = false;
+//         return this.optional(element) || check;
+//     },
+//     "Please enter a date in the format mm/dd/yyyy"
+// );
+
+// FIND MOST FREQUENT ITEM IN ARRAY//
+
+// function mode(array)
+// {
+//     if(array.length == 0)
+//     	return null;
+//     var modeMap = {};
+//     var maxEl = array[0], maxCount = 1;
+//     for(var i = 0; i < array.length; i++)
+//     {
+//     	var el = array[i];
+//     	if(modeMap[el] == null)
+//     		modeMap[el] = 1;
+//     	else
+//     		modeMap[el]++;	
+//     	if(modeMap[el] > maxCount)
+//     	{
+//     		maxEl = el;
+//     		maxCount = modeMap[el];
+//     	}
+//     }
+//     return maxEl;
+// }
+
+ // 	</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var bottles = 99;
+	var next = 98;
+
+	while (bottles > 1){
+
+		//for all greater than zero
+		console.log(bottles + " bottles of beer on the wall!" +bottles + " bottles of beer!" + " take one down, pass it around!" + next + " bottles of beer on the wall!"); 
+		bottles--;//one less bottle each time
+		next = bottles - 1;//this shows that the next number of bottles
+
+		if (bottles == 1){
+			console.log("1 bottle of beer on the wall! 1 bottle of beer! Take one down, pass it around, no more bottles of beer on the wall");
+		}
+	}
+</script>
+</body>
+<html>
